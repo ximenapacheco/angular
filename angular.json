@@ -28,9 +28,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",              	
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ] 
           },
           "configurations": {
             "production": {
@@ -124,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "lab2"
+  "defaultProject": "lab2",
+  "cli": {
+    "analytics": "edb274d3-6f23-4bb5-9e10-cf29fd5701c6"
+  }
 }
